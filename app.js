@@ -5,7 +5,7 @@ const PORT = 3000;
 
 app.get('/test', (req, res)=>{ 
 	res.status(200); 
-	res.send("Hello User!!!! Welcome to Squadl technologies."); 
+	res.send("Hello User!!!! Welcome to Squadl technologies.!!!!!"); 
 }); 
 
 app.listen(PORT, (error) =>{ 
